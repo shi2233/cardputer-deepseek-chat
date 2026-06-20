@@ -1,0 +1,19 @@
+#pragma once
+#include <Arduino.h>
+
+void keyboardInit();
+void keyboardUpdate();
+bool keyboardHasNewChar();
+char keyboardGetChar();
+bool keyboardEnterPressed();
+bool keyboardBackspacePressed();
+bool keyboardTabPressed();
+bool keyboardSpacePressed();
+bool keyboardEscPressed();
+bool keyboardUpPressed();
+bool keyboardDownPressed();
+bool keyboardLeftPressed();
+bool keyboardRightPressed();
+bool keyboardNumberPressed();
+int  keyboardGetNumber();
+bool keyboardKeyPressed();
